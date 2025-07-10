@@ -251,7 +251,7 @@ const DocSpot = () => {
                 <div className="result-header">SERIOUS CONDITION</div>
                 <div className="result-content">
                   <p>Connect to doctor via video call</p>
-                  <p>or visit clinic</p>
+                  <p>or make appointment and bed arrangement in the nearby Hospital</p>
                 </div>
               </div>
             </div>
