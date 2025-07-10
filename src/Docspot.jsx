@@ -184,6 +184,138 @@ const DocSpot = () => {
         </div>
       </section>
 
+      {/* How It Works Section */}
+      <section className="how-it-works-section">
+        <div className="container">
+          <h2 className="section-title">How DocSpot Works: Simple, Accessible, Smart</h2>
+          <div className="workflow-container">
+            <div className="workflow-step">
+              <div className="step-box welcome-screen">
+                <div className="step-header">WELCOME SCREEN</div>
+                <div className="step-content">
+                  <p>Welcome to DocSpot!</p>
+                  <div className="start-button">Start</div>
+                </div>
+              </div>
+              <div className="arrow-down">↓</div>
+            </div>
+            
+            <div className="workflow-step">
+              <div className="step-box symptom-selection">
+                <div className="step-header">SYMPTOM SELECTION</div>
+                <div className="step-content">
+                  <p>What's your problem today?</p>
+                  <div className="input-options">
+                    <div className="text-input">📝</div>
+                    <div className="voice-input">🎤</div>
+                  </div>
+                </div>
+              </div>
+              <div className="arrow-down">↓</div>
+            </div>
+            
+            <div className="workflow-step">
+              <div className="step-box vitals-measurement">
+                <div className="step-header">VITALS MEASUREMENT</div>
+                <div className="step-content">
+                  <ul>
+                    <li>- BP check</li>
+                    <li>- Heart rate</li>
+                    <li>- Temp check</li>
+                    <li>- SpO₂ check</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="arrow-down">↓</div>
+            </div>
+            
+            <div className="workflow-results">
+              <div className="result-box normal-condition">
+                <div className="result-header">NORMAL CONDITION</div>
+                <div className="result-content">
+                  <p>All readings normal.</p>
+                  <p>Prints advice slip.</p>
+                </div>
+              </div>
+              
+              <div className="result-box mild-condition">
+                <div className="result-header">MILD CONDITION</div>
+                <div className="result-content">
+                  <p>Mild condition</p>
+                  <p>Prints prescription slip</p>
+                  <p>Dispense tablets</p>
+                </div>
+              </div>
+              
+              <div className="result-box serious-condition">
+                <div className="result-header">SERIOUS CONDITION</div>
+                <div className="result-content">
+                  <p>Connect to doctor via video call</p>
+                  <p>or visit clinic</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Prototype Budget Section */}
+      <section className="prototype-budget-section">
+        <div className="container">
+          <h2 className="section-title">Lean Prototype Budget: Proving the Concept</h2>
+          <div className="budget-table">
+            <div className="budget-row budget-header">
+              <div className="item-name">Item</div>
+              <div className="item-cost">Cost (₹)</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Digital BP Monitor</div>
+              <div className="item-cost">2,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Pulse Oximeter</div>
+              <div className="item-cost">800</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Digital Thermometer</div>
+              <div className="item-cost">400</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Touchscreen Display</div>
+              <div className="item-cost">7,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Thermal Printer</div>
+              <div className="item-cost">2,500</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Tablet Dispenser Mechanism</div>
+              <div className="item-cost">3,500</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Hardware Enclosure / Stand</div>
+              <div className="item-cost">3,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Raspberry Pi / Mini PC</div>
+              <div className="item-cost">5,500</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Power Backup (UPS)</div>
+              <div className="item-cost">2,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Basic Software Development</div>
+              <div className="item-cost">5,000</div>
+            </div>
+            <div className="budget-row budget-total">
+              <div className="item-name">Total Estimated Cost</div>
+              <div className="item-cost">31,700</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Business Model Section */}
       <section id="business" className="business-section">
         <div className="container">
