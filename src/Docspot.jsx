@@ -145,44 +145,56 @@ const DocSpot = () => {
       </section>
 
       {/* Solution Section */}
-      <section id="solution" className="solution-section">
-        <div className="container">
-          <h2 className="section-title">The Solution: DocSpot</h2>
-          <div className="solution-grid">
-            <div className="solution-features">
-              <div className="feature-item">
-                <div className="feature-icon">🩺</div>
-                <div className="feature-title">Comprehensive Health Checks</div>
-                <p>Blood pressure, oxygen saturation, heart rate, and body temperature monitoring</p>
-              </div>
-              <div className="feature-item">
-                <div className="feature-icon">🗣️</div>
-                <div className="feature-title">Local Language Support</div>
-                <p>Easy touchscreen or voice input with instant health analysis in regional languages</p>
-              </div>
-              <div className="feature-item">
-                <div className="feature-icon">📱</div>
-                <div className="feature-title">Smart Connectivity</div>
-                <p>Connects to doctors via video call when needed, with printout of results and advice</p>
-              </div>
-              <div className="feature-item">
-                <div className="feature-icon">💰</div>
-                <div className="feature-title">Cost-Effective</div>
-                <p>Significantly cheaper than building physical clinics, accessible to all income levels</p>
-              </div>
-            </div>
-            <div className="solution-visual">
-              <div className="device-mockup">
-                <div className="device-screen">
-                  <div className="health-icon">❤️</div>
-                  <h3>Health Check</h3>
-                  <p>Digital clinic at your doorstep</p>
-                </div>
-              </div>
-            </div>
+<section id="solution" className="solution-section">
+  <div className="container">
+    <h2 className="section-title">The Solution: DocSpot</h2>
+    <div className="solution-grid">
+      <div className="solution-features">
+        <div className="feature-item">
+          <div className="feature-icon">🩺</div>
+          <div className="feature-title">Comprehensive Health Checks</div>
+          <p>Blood pressure, oxygen saturation, heart rate, and body temperature monitoring</p>
+        </div>
+        <div className="feature-item">
+          <div className="feature-icon">🗣️</div>
+          <div className="feature-title">Local Language Support</div>
+          <p>Easy touchscreen or voice input with instant health analysis in regional languages</p>
+        </div>
+        <div className="feature-item">
+          <div className="feature-icon">📱</div>
+          <div className="feature-title">Smart Connectivity</div>
+          <p>Connects to doctors via video call when needed, with printout of results and advice</p>
+        </div>
+        <div className="feature-item">
+          <div className="feature-icon">💰</div>
+          <div className="feature-title">Cost-Effective</div>
+          <p>Significantly cheaper than building physical clinics, accessible to all income levels</p>
+        </div>
+      </div>
+      <div className="solution-visual">
+        <div className="device-mockup">
+          <div className="device-screen">
+            <div className="health-icon">❤️</div>
+            <h3>Health Check</h3>
+            <p>Digital clinic at your doorstep</p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+
+    {/* New Paragraph Section */}
+    <div className="solution-learning">
+      <p>
+        The system is designed to handle only basic conditions like fever
+        , cold, or flu. However, when a case requires a doctor consultation via video call,
+         the system learns from that interaction. For example, if a patient experiences fever and flu for three days,
+          it connects to a doctor. During the consultation, the machine observes the diagnostic process to understand how such cases differ from normal conditions.
+           Over time, this enables improved pattern recognition and smarter health assessments.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* How It Works Section */}
       <section className="how-it-works-section">
@@ -242,8 +254,10 @@ const DocSpot = () => {
                 <div className="result-header">MILD CONDITION</div>
                 <div className="result-content">
                   <p>Mild condition</p>
+                  <p>Connect to Doctor via video call</p>
                   <p>Prints prescription slip</p>
                   <p>Dispense tablets</p>
+
                 </div>
               </div>
               
@@ -262,55 +276,63 @@ const DocSpot = () => {
       {/* Prototype Budget Section */}
       <section className="prototype-budget-section">
         <div className="container">
-          <h2 className="section-title">Lean Prototype Budget: Proving the Concept</h2>
+          <h2 className="section-title">Detailed Prototype Budget: Complete Cost Breakdown</h2>
           <div className="budget-table">
             <div className="budget-row budget-header">
               <div className="item-name">Item</div>
               <div className="item-cost">Cost (₹)</div>
             </div>
             <div className="budget-row">
-              <div className="item-name">Digital BP Monitor</div>
-              <div className="item-cost">2,000</div>
+              <div className="item-name">Digital BP Monitor (Omron HEM-7120)</div>
+              <div className="item-cost">2,800</div>
             </div>
             <div className="budget-row">
-              <div className="item-name">Pulse Oximeter</div>
-              <div className="item-cost">800</div>
-            </div>
-            <div className="budget-row">
-              <div className="item-name">Digital Thermometer</div>
-              <div className="item-cost">400</div>
-            </div>
-            <div className="budget-row">
-              <div className="item-name">Touchscreen Display</div>
-              <div className="item-cost">7,000</div>
-            </div>
-            <div className="budget-row">
-              <div className="item-name">Thermal Printer</div>
+              <div className="item-name">Pulse Oximeter (BPL Smart Oxy)</div>
               <div className="item-cost">2,500</div>
             </div>
             <div className="budget-row">
-              <div className="item-name">Tablet Dispenser Mechanism</div>
-              <div className="item-cost">3,500</div>
+              <div className="item-name">Digital Thermometer (Omron MC-720)</div>
+              <div className="item-cost">1,500</div>
             </div>
             <div className="budget-row">
-              <div className="item-name">Hardware Enclosure / Stand</div>
+              <div className="item-name">Touchscreen Display (Waveshare 15.6")</div>
+              <div className="item-cost">18,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Thermal Printer (Epson TM-T82X)</div>
+              <div className="item-cost">9,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Tablet Dispenser Mechanism (Commercial Unit)</div>
+              <div className="item-cost">10,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Hardware Enclosure / Cabinet (Custom Steel)</div>
+              <div className="item-cost">22,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Intel NUC (Refurbished)</div>
+              <div className="item-cost">27,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Webcam (Logitech C270 HD)</div>
+              <div className="item-cost">2,500</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Speakers/Microphone (USB Conference Mic)</div>
+              <div className="item-cost">2,500</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Power Backup (UPS 1000VA)</div>
+              <div className="item-cost">4,000</div>
+            </div>
+            <div className="budget-row">
+              <div className="item-name">Cables & Installation Materials</div>
               <div className="item-cost">3,000</div>
-            </div>
-            <div className="budget-row">
-              <div className="item-name">Raspberry Pi / Mini PC</div>
-              <div className="item-cost">5,500</div>
-            </div>
-            <div className="budget-row">
-              <div className="item-name">Power Backup (UPS)</div>
-              <div className="item-cost">2,000</div>
-            </div>
-            <div className="budget-row">
-              <div className="item-name">Basic Software Development</div>
-              <div className="item-cost">5,000</div>
             </div>
             <div className="budget-row budget-total">
               <div className="item-name">Total Estimated Cost</div>
-              <div className="item-cost">31,700</div>
+              <div className="item-cost">1,05,300</div>
             </div>
           </div>
         </div>
