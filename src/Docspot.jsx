@@ -185,7 +185,7 @@ const DocSpot = () => {
     {/* New Paragraph Section */}
     <div className="solution-learning">
       <p>
-        The system is designed to handle only basic conditions like fever
+        The system will be designed to handle only basic conditions like fever
         , cold, or flu. However, when a case requires a doctor consultation via video call,
          the system learns from that interaction. For example, if a patient experiences fever and flu for three days,
           it connects to a doctor. During the consultation, the machine observes the diagnostic process to understand how such cases differ from normal conditions.
