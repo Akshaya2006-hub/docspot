@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './DocSpot.css';
 
+
 const DocSpot = () => {
   const [activeSection, setActiveSection] = useState('');
   const [navbarOpacity, setNavbarOpacity] = useState(0.95);
